@@ -13,6 +13,7 @@
 		BD57832725EF75F7000FEB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD57832525EF75F7000FEB05 /* Main.storyboard */; };
 		BD57832925EF75F8000FEB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD57832825EF75F8000FEB05 /* Assets.xcassets */; };
 		BD57832C25EF75F8000FEB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD57832A25EF75F8000FEB05 /* LaunchScreen.storyboard */; };
+		BD57835425F6B976000FEB05 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD57835325F6B976000FEB05 /* InputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BD57832825EF75F8000FEB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD57832B25EF75F8000FEB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD57832D25EF75F8000FEB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD57835325F6B976000FEB05 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				BD57832125EF75F7000FEB05 /* SceneDelegate.swift */,
 				BD57832325EF75F7000FEB05 /* ViewController.swift */,
 				BD57832525EF75F7000FEB05 /* Main.storyboard */,
+				BD57835325F6B976000FEB05 /* InputView.swift */,
 				BD57832825EF75F8000FEB05 /* Assets.xcassets */,
 				BD57832A25EF75F8000FEB05 /* LaunchScreen.storyboard */,
 				BD57832D25EF75F8000FEB05 /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD57832425EF75F7000FEB05 /* ViewController.swift in Sources */,
+				BD57835425F6B976000FEB05 /* InputView.swift in Sources */,
 				BD57832025EF75F7000FEB05 /* AppDelegate.swift in Sources */,
 				BD57832225EF75F7000FEB05 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J7A29XL847;
 				INFOPLIST_FILE = UiKitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J7A29XL847;
 				INFOPLIST_FILE = UiKitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

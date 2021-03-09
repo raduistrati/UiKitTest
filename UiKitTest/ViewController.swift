@@ -7,13 +7,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class MainViewController: UIViewController {
+    
+    @IBOutlet weak var nameField: InputView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        nameField.addInnerShadow()
+        nameField.setIcon(UIImage(systemName: "person.3.fill"))
     }
-
-
+    @IBAction func onButtonTap(_ sender: Any) {
+        
+    }
 }
 
